@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
 
-public class Seller implements Serializable {
+public class Seller extends Department implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
